@@ -19,8 +19,17 @@ Inicializa un nuevo repositorio Git en el directorio actual.
 
 ---
 
+## `git remote`
+Establece o muestra la información de un origen remoto.
+
+`git remote add <link del repositorio>`: Agrega un nuevo origen remoto.
+
+---
+
 ## `git clone`
 Clona un repositorio Git existente desde una URL.
+
+`git clone <url-repositorio>`: Clona el repositorio desde la URL especificada.
 
 `git clone <repositorio> <mi-proyecto-clone>`: Clona el repositorio `repositorio` en el directorio `mi-proyecto-clone.
 
@@ -43,6 +52,8 @@ Guarda los cambios en el repositorio local.
 ## `git push`
 Envía los commits desde el repositorio local a un repositorio remoto.
 
+`git push -u origin main`: Envía los commits y establece la rama `main` como la rama por defecto
+
 ---
 
 ## `git pull`
@@ -58,6 +69,8 @@ Cambia entre ramas.
 
 ## `git branch`
 Crea, lista o elimina ramas.
+
+`git branch -M main`: Renombra la rama actual a `main`.
 
 ---
 
@@ -99,6 +112,12 @@ Muestra el estado del repositorio de trabajo.
 ## `git config --global`
 Configura opciones globales para el usuario actual.
 
+`git config --global user.name "nombre_usuario"`: configura el nombre de usuario.
+
+`git config --global user.email "correo_electronico"`: configura el correo electrónico.
+
+`git config --list`: muestra todas las opciones configuradas.
+
 ---
 
 ## `git remote`
@@ -124,3 +143,6 @@ Restaura un archivo a una versión anterior.
 `git restore --source <hash> <nombre-archivo>`: para restaurar un archivo a una versión específica.
 
 [nuevos comandos de git restore y git switch](https://www.aluracursos.com/blog/git-y-los-nuevos-comandos)
+
+
+[Buenas practicas en git: evitando errores | Alura Cursos Online](https://www.aluracursos.com/blog/como-evitar-errores-en-git)

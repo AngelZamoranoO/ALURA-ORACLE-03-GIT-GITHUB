@@ -50,6 +50,12 @@ Obtiene los cambios desde un repositorio remoto y los fusiona con el repositorio
 
 ---
 
+## `git switch`
+Cambia entre ramas.
+`git switch <nombre-rama>`: Cambia a la rama `<nombre-rama>`.
+
+---
+
 ## `git branch`
 Crea, lista o elimina ramas.
 
@@ -57,6 +63,9 @@ Crea, lista o elimina ramas.
 
 ## `git checkout`
 Cambia entre ramas o restaura archivos de versiones anteriores.
+
+`git checkout -b <nombre-rama>`: Crea una nueva rama llamada `<nombre-rama> `
+
 
 ---
 
